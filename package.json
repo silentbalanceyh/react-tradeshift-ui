@@ -4,15 +4,15 @@
   "main": "components/index.js",
   "license": "ISC",
   "scripts": {
-    "build": "build-storybook",
-    "precommit": "lint-staged",
-    "commit": "git-cz",
+    "build-storybook": "build-storybook",
     "start": "start-storybook -p 9009",
     "lint": "eslint src",
     "test": "react-scripts test --env=jsdom",
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
-    "report-coverage": "cat ./coverage/lcov.info | codecov"
+    "precommit": "lint-staged",
+    "commit": "git-cz"
   },
   "lint-staged": {
     "*.js": [
