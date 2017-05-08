@@ -31,21 +31,3 @@ stories.addWithInfo(
 	),
 	{ inline: true }
 );
-
-stories.addWithInfo(
-	'Uncontrolled mode',
-	`In uncontrolled mode the aside will open on render, and
-	 close automatically when the user clicks to dismiss.`,
-	() => (
-		<Aside
-			title={text('title', 'Aside demo')}
-			loadingMessage={text('loadingMessage', 'Loading...')}
-			isLoading={boolean('isLoading', false)}
-			onOpen={action('onOpen')}
-			onOpened={action('onOpened')}
-			onClose={action('onClose')}
-			onClosed={action('onClosed')}
-		/>
-	),
-	{ inline: true }
-);

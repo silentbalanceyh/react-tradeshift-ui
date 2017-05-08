@@ -1,0 +1,23 @@
+exports[`Aside Controlled mode 1`] = `
+<portal>
+  <aside
+    data-ts="Aside"
+    data-ts.busy={undefined}
+    data-ts.open={false}
+    data-ts.title="Aside demo">
+    <div
+      data-ts="Panel">
+      <menu
+        data-ts="Menu">
+        <li
+          className="">
+          <button
+            disabled={false}>
+            Menu item
+          </button>
+        </li>
+      </menu>
+    </div>
+  </aside>
+</portal>
+`;
