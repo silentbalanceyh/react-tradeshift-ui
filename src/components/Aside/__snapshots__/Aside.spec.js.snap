@@ -6,11 +6,8 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <Portal
-    isOpened={true}
-    onClose={[Function]}
-    onOpen={[Function]}
-    onUpdate={[Function]}>
+  "node": <Unknown
+    isOpened={true}>
     <aside
         data-ts="Aside"
         data-ts.busy={undefined}
@@ -19,13 +16,10 @@ ShallowWrapper {
         <div
             data-ts="Panel" />
     </aside>
-</Portal>,
+</Unknown>,
   "nodes": Array [
-    <Portal
-      isOpened={true}
-      onClose={[Function]}
-      onOpen={[Function]}
-      onUpdate={[Function]}>
+    <Unknown
+      isOpened={true}>
       <aside
             data-ts="Aside"
             data-ts.busy={undefined}
@@ -34,7 +28,7 @@ ShallowWrapper {
             <div
                   data-ts="Panel" />
       </aside>
-</Portal>,
+</Unknown>,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
@@ -92,11 +86,8 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <Portal
-          isOpened={true}
-          onClose={[Function]}
-          onOpen={[Function]}
-          onUpdate={[Function]}>
+        "_currentElement": <Unknown
+          isOpened={true}>
           <aside
                     data-ts="Aside"
                     data-ts.busy={undefined}
@@ -105,13 +96,10 @@ ShallowWrapper {
                     <div
                               data-ts="Panel" />
           </aside>
-</Portal>,
+</Unknown>,
         "_debugID": 2,
-        "_renderedOutput": <Portal
-          isOpened={true}
-          onClose={[Function]}
-          onOpen={[Function]}
-          onUpdate={[Function]}>
+        "_renderedOutput": <Unknown
+          isOpened={true}>
           <aside
                     data-ts="Aside"
                     data-ts.busy={undefined}
@@ -120,7 +108,7 @@ ShallowWrapper {
                     <div
                               data-ts="Panel" />
           </aside>
-</Portal>,
+</Unknown>,
       },
       "_renderedNodeType": 1,
       "_rootNodeID": 0,
