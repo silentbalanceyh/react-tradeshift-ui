@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import cx from 'classnames';
 
-const MenuItem = ({ children, checked, disabled }) => (
-	<li className={cx({ 'ts-checked': checked })}>
+const MenuItem = ({ children, selected, disabled }) => (
+	<li className={cx({ 'ts-checked': selected })}>
 		<button disabled={disabled}>
-			{children}
-			{checked ? <i className="ts-icon-checked" /> : null}
+			<span>{children}</span>
+			{selected ? <i className="ts-icon-checked" /> : null}
 		</button>
 	</li>
 );
@@ -16,13 +16,13 @@ MenuItem.propTypes = {
 		PropTypes.arrayOf(PropTypes.node),
 		PropTypes.node
 	]),
-	checked: PropTypes.bool,
+	selected: PropTypes.bool,
 	disabled: PropTypes.bool
 };
 
 MenuItem.defaultProps = {
 	children: null,
-	checked: false,
+	selected: false,
 	disabled: false
 };
 
