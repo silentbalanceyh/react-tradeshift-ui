@@ -8,7 +8,7 @@ addDecorator(withKnobs);
 
 setOptions({
 	name: 'React-tradeshift-ui',
-	url: 'https://ui.tradeshift.com',
+	url: 'https://github.com/Tradeshift/react-tradeshift-ui',
 	goFullScreen: false,
 	showLeftPanel: true,
 	showDownPanel: true,
