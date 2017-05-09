@@ -8,6 +8,7 @@
     "start": "start-storybook -p 9009",
     "lint": "eslint src",
     "test": "react-scripts test --env=jsdom",
+    "prettier": "prettier --write --use-tabs --single-quote --print-width 100 --color src",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "commitmsg": "opt --in commit-msg --exec \"validate-commit-msg\"",
@@ -17,7 +18,7 @@
   "lint-staged": {
     "*.js": [
       "eslint --color",
-      "prettier --write --use-tabs --single-quote --color",
+      "prettier --write --use-tabs --single-quote --print-width 100 --color",
       "git add"
     ]
   },

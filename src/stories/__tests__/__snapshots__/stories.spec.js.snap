@@ -28,12 +28,14 @@ exports[`Menu Basic usage 1`] = `
 <menu
   data-ts="Menu">
   <li
-    className="">
+    className="ts-checked">
     <button
       disabled={false}>
       <span>
         Menu item 1
       </span>
+      <i
+        className="ts-icon-checked" />
     </button>
   </li>
   <li
