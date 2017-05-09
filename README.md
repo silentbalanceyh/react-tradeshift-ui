@@ -9,8 +9,8 @@ Check the component storybook at [tradeshift.github.io/react-tradeshift-ui](http
 [![devDependency Status](https://david-dm.org/tradeshift/react-tradeshift-ui/dev-status.svg)](https://david-dm.org/tradeshift/react-tradeshift-ui#info=devDependencies)
 
 [![npm version](https://badge.fury.io/js/react-tradeshift-ui.svg)](https://badge.fury.io/js/react-tradeshift-ui)
-[![Build Status](https://travis-ci.org/Tradeshift/react-tradeshift-ui.svg?branch=master)](https://travis-ci.org/tradeshift/react-tradeshift-ui)
-[![codecov](https://codecov.io/gh/tradeshift/react-tradeshift-ui/branch/master/graph/badge.svg)](https://codecov.io/gh/tradeshift/react-tradeshift-ui)
+[![Build Status](https://travis-ci.org/Tradeshift/react-tradeshift-ui.svg?branch=master)](https://travis-ci.org/Tradeshift/react-tradeshift-ui)
+[![codecov](https://codecov.io/gh/Tradeshift/react-tradeshift-ui/branch/master/graph/badge.svg)](https://codecov.io/gh/Tradeshift/react-tradeshift-ui)
 
 
 ## Installation
