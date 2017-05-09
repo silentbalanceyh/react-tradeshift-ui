@@ -11,7 +11,7 @@ stories.addWithInfo(
 	() => (
 		<Menu>
 			<MenuItem
-				selected={boolean('selected', false)}
+				selected={boolean('selected', true)}
 				disabled={boolean('disabled', false)}
 			>
 				Menu item 1

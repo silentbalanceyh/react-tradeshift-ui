@@ -13,11 +13,37 @@ exports[`Aside Controlled mode 1`] = `
           className="">
           <button
             disabled={false}>
-            Menu item
+            <span>
+              Menu item
+            </span>
           </button>
         </li>
       </menu>
     </div>
   </aside>
 </portal>
+`;
+
+exports[`Menu Basic usage 1`] = `
+<menu
+  data-ts="Menu">
+  <li
+    className="">
+    <button
+      disabled={false}>
+      <span>
+        Menu item 1
+      </span>
+    </button>
+  </li>
+  <li
+    className="">
+    <button
+      disabled={false}>
+      <span>
+        Menu item 2
+      </span>
+    </button>
+  </li>
+</menu>
 `;
