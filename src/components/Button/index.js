@@ -4,7 +4,9 @@ import PropTypes from 'prop-types';
 class Button extends Component {
 	constructor(props) {
 		super(props);
-		this.button.classList = [];
+		this.button = {
+			classList: []
+		};
 	}
 	/*
 	 * The goal here is to add class names to the classList array
