@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@kadira/storybook';
 import { boolean, text } from '@kadira/storybook-addon-knobs';
-import Switch from '../components/Switch';
+import { Switch } from '../components';
 
 const stories = storiesOf('Switch', module);
 
