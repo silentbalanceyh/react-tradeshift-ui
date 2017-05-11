@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class Button extends Component {
-	constructor(props) {
-		super(props);
-		this.button = {
-			classList: []
-		};
-	}
 	/*
 	 * The goal here is to add class names to the classList array
 	 * while keeping the class names that the Tradeshift UI library
@@ -46,7 +40,7 @@ class Button extends Component {
 		return (
 			<button
 				id={this.props.id}
-				classes={this.props.classes}
+				data-classes={this.props.classes}
 				data-ts="Button"
 				{...buttonProps}
 				// Set this ref so we can grab the classList later after
