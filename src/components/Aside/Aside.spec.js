@@ -4,11 +4,7 @@ import { shallow } from 'enzyme';
 import Aside from './';
 
 describe('Aside', () => {
-	it('renders with default props', () => {
-		const wrapper = shallow(<Aside />);
-		expect(wrapper).toMatchSnapshot();
-	});
-
+	// Add specific tests for ui-spirit related functions
 	describe('spirit interaction', () => {
 		it('respects isOpen in controlled mode', () => {
 			const wrapper = shallow(<Aside isOpen />);

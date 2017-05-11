@@ -1,9 +1,7 @@
 import React from 'react';
 import { storiesOf, action } from '@kadira/storybook';
 import { text, boolean } from '@kadira/storybook-addon-knobs';
-import Aside from '../components/Aside';
-import Menu from '../components/Menu';
-import MenuItem from '../components/MenuItem';
+import { Aside, Menu, MenuItem } from '../components';
 
 const stories = storiesOf('Aside', module);
 
